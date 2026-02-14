@@ -1,0 +1,9 @@
+{
+  "generator.suffocating-world.suffocating_world": "Suffocating",
+  "generator.suffocating-world.suffocating_world.info": "Vanilla terrain, replaces air during worldgen",
+  "screen.suffocating-world.preset.title": "Suffocating World Preset",
+  "screen.suffocating-world.preset.block": "Replace air with",
+  "screen.suffocating-world.preset.hint": "minecraft:stone",
+  "screen.suffocating-world.preset.invalid": "Unknown block id",
+  "screen.suffocating-world.preset.empty": "Block id cannot be empty"
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "suffocating-world",
+	"version": "${version}",
+	"name": "Suffocating World",
+	"description": "Replace air by other blocks during terran gen.",
+	"authors": [
+		"Noflowerzzk"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/suffocating-world/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"noflower.suffocatingworld.SuffocatingWorld"
+		],
+		"client": [
+			"noflower.suffocatingworld.SuffocatingWorldClient"
+		],
+		"fabric-datagen": [
+			"noflower.suffocatingworld.SuffocatingWorldDataGenerator"
+		]
+	},
+	"mixins": [
+		"suffocating-world.mixins.json",
+		{
+			"config": "suffocating-world.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

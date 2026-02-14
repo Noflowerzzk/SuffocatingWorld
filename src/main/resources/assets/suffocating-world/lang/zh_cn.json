@@ -1,0 +1,9 @@
+{
+  "generator.suffocating-world.suffocating_world": "窒息",
+  "generator.suffocating-world.suffocating_world.info": "原版地形，生成时将空气替换为指定方块",
+  "screen.suffocating-world.preset.title": "窒息 世界预设",
+  "screen.suffocating-world.preset.block": "空气替换为",
+  "screen.suffocating-world.preset.hint": "minecraft:stone",
+  "screen.suffocating-world.preset.invalid": "未知方块 ID",
+  "screen.suffocating-world.preset.empty": "方块 ID 不能为空"
+}

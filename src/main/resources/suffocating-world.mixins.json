@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "noflower.suffocatingworld.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"ChunkStatusTasksMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

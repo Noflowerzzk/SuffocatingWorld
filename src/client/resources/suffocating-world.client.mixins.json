@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "noflower.suffocatingworld.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"WorldCreationUiStateMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
